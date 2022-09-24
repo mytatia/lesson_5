@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "HMAmpersand";
+  src: url("../fonts/HM\ Ampersand\ W06\ Regular.ttf");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LatoBold";
+  src: url("../fonts/Lato-Bold.ttf");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato Black";
+  src: url("../fonts/Lato-Black.ttf");
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LemonTuesday";
+  src: url("../fonts/LemonTuesday.woff2") format("woff2"),
+    url("../fonts/LemonTuesday.woff") format("woff");
+}
+
+h1 {
+  display: block;
+  margin: 30px 30px;
+  font-family: "LemonTuesday", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  color: blueviolet;
+}
+
+div {
+  margin: 20px 20px;
+  width: 1000px;
+  line-height: 1.5;
+  text-indent: 10px;
+}
+
+h2 {
+  margin: 20px 10px;
+  text-transform: capitalize;
+  font-family: "LemonTuesday", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.place__two {
+  color: rgb(89, 0, 255);
+}
+.place__one,
+.place__two {
+  font-family: "HMAmpersand", sans-serif;
+  font-size: 15px;
+  font-style: oblique;
+  text-shadow: 1px 1px 5px rgb(11, 11, 23);
+  text-align: justify;
+}
+
+.place__six {
+  color: green;
+  font-family: "LemonTuesday", sans-serif;
+  text-align: left;
+}
+
+.place__eight {
+  font-family: "HMAmpersand", sans-serif;
+  color: red;
+  text-decoration: line-through;
+}
+
+#intro {
+  font-family: "Lato Black", sans-serif;
+  font-size: 20px;
+}
+
+p.second__p {
+  font-family: "LatoBold", sans-serif;
+  color: rgb(9, 164, 164);
+  font-style: italic;
+  word-spacing: 10px;
+}
+
+p.first__p {
+  font-family: "LemonTuesday", sans-serif;
+  font-weight: 700;
+  color: rgb(47, 4, 4);
+}
+.place__ten {
+  font-family: "HMAmpersand", serif;
+  text-shadow: 1px 1px 5px rgb(8, 0, 255);
+  word-spacing: 10px;
+}
+
+div.place__5 p {
+  font-family: "LatoBold";
+  color: orange;
+}
+.final {
+  font-family: "LatoBold", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  color: blueviolet;
+  font-style: oblique;
+}
+
+div.place__four > p {
+  font-family: "HMAmpersand";
+  color: blueviolet;
+  font-style: italic;
+  text-align: center;
+}
